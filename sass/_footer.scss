@@ -1,0 +1,26 @@
+.fs--sm {
+  font-size: 8px;
+  color: white;
+}
+footer {
+  .h-10 {
+    height: 3em;
+  }
+  .w-10 {
+    width: 3em;
+  }
+  button {
+    svg {
+      transition: transform 0.8s;
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+    .btn {
+      font-size: 10px;
+    }
+    @include breakpoint-up(medium) {
+      font-size: 10px;
+    }
+  }
+}

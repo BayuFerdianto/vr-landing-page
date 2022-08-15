@@ -1,0 +1,26 @@
+@import "variable";
+@import "importcdn";
+@import "mixin";
+
+// import section
+@import "header";
+@import "hero";
+@import "footer";
+// all
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #1b2938;
+  background: linear-gradient(#1b2938 20%, #173355 60%);
+}
+.container__ {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+svg {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  fill: #fff;
+}
